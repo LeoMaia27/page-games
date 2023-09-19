@@ -16,7 +16,7 @@ body {
     text-align: center;
     background-color: var(--bg-color);
     color: white;
-    /* height: 100vh; */
+    overflow-x: hidden;
     min-height: 100vh;
     /* min-width: 27.25rem; */
 }
@@ -122,6 +122,7 @@ footer {
 /*Content*/
 figcaption {
     color: #aaa;
+    max-width: 100%;
 }
 
 .cardGames {
